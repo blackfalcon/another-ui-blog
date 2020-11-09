@@ -1,3 +1,8 @@
+## [Why a datetime component?](/blog/why-datetime)
+<small><auro-datetime utc="2020-11-12T00:01:00Z" month="long"></auro-datetime></small>
+
+So blah blah ... custom elements or web components. You get it. They are here and we can use them. Why do you care?
+
 ## [The Dream](/blog/the-dream)
 <small><auro-datetime utc="2020-11-09T00:01:00Z" month="long"></auro-datetime></small>
 

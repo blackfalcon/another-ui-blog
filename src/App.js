@@ -22,9 +22,9 @@ import ScrollToTop from './components/ScrollToTop';
 import NotFound from './content/notFound.js';
 
 // Accordion
-import AuroAccordion from './content/dynamic/accordion/component';
-import AuroAccordionApi from './content/dynamic/accordion/api';
-import AuroAccordionInstall from './content/dynamic/accordion/install';
+// import AuroAccordion from './content/dynamic/accordion/component';
+// import AuroAccordionApi from './content/dynamic/accordion/api';
+// import AuroAccordionInstall from './content/dynamic/accordion/install';
 
 // imported block components
 import Footer from './components/footer';
@@ -39,7 +39,8 @@ import {
   About,
   CustomElements,
   DetectingTouch,
-  TheDream
+  TheDream,
+  WhyDateTime
 } from './content/docsExport';
 
 function App() {
@@ -66,11 +67,12 @@ function App() {
             <Route exact path="/blog/custom-elements"><CustomElements /></Route>
             <Route exact path="/blog/detecting-touch"><DetectingTouch /></Route>
             <Route exact path="/blog/the-dream"><TheDream /></Route>
+            <Route exact path="/blog/why-datetime"><WhyDateTime /></Route>
 
             {/* accordion */}
-            <Route exact path="/accordion/"><AuroAccordion /></Route>
+            {/* <Route exact path="/accordion/"><AuroAccordion /></Route>
             <Route exact path="/accordion/api"><AuroAccordionApi /></Route>
-            <Route exact path="/accordion/install"><AuroAccordionInstall /></Route>
+            <Route exact path="/accordion/install"><AuroAccordionInstall /></Route> */}
 
             <Route path="*"><NotFound /></Route>
 

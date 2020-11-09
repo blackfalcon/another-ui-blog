@@ -9,6 +9,7 @@ import HomePage from './static/home.md';
 import CustomElementsPage from './static/blog/custom-elements.md'
 import DetectingTouchPage from './static/blog/detecting-touch.md'
 import TheDreamPage from './static/blog/the-dream.md'
+import WhyDateTimePage from './static/blog/why-date-time.md'
 
 export class About extends InternalMarkdownWrapper {
   readme = AboutPage
@@ -20,6 +21,10 @@ export class AuroHome extends InternalMarkdownWrapper {
 
 
 // Blog
+
+export class WhyDateTime extends InternalMarkdownWrapper {
+  readme = WhyDateTimePage
+}
 
 export class TheDream extends InternalMarkdownWrapper {
   readme = TheDreamPage
