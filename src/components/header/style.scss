@@ -1,0 +1,53 @@
+// Orion tokens
+@import '~@alaskaairux/orion-design-tokens/dist/tokens/TokenVariables';
+
+// Auro tokens
+@import "~@alaskaairux/orion-design-tokens/dist/tokens/SCSSVariables";
+
+@import "~@alaskaairux/orion-web-core-style-sheets/dist/breakpoints";
+
+.siteHeader {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid $auro-color-border-primary-on-light;
+  background-color: white;
+
+  @include auro_breakpoint--sm {
+    padding: 10px 0 10px 25px;
+  }
+}
+
+.headerLinkBox {
+  display: flex;
+  text-decoration: none;
+}
+
+.logoIcon {
+  width: calc(6.875rem + (var(--auro-size-md)));
+  border-right: 1px solid var(--auro-color-base-gray-200);
+  margin-right: var(--auro-size-xs);
+  padding-right: var(--auro-size-xs);
+}
+
+.headerTitle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: var(--auro-size-xxs);
+
+  &-title {
+    color: var(--auro-color-brand-breeze-300);
+    font-size: var(--auro-size-xl);
+    line-height: 1;
+  }
+
+  &-tagline {
+    line-height: 1;
+    color: var(--auro-color-base-gray-400);
+  }
+}

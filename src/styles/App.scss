@@ -1,0 +1,71 @@
+// Auro Support
+/* ------------------------ Auro Support ------------------------ */
+@import "~@alaskaairux/orion-design-tokens/dist/tokens/SCSSVariables";
+
+// Orion support
+/* ------------------------ Orion Support ------------------------ */
+@import '~@alaskaairux/orion-design-tokens/dist/tokens/TokenVariables';
+@import "~@alaskaairux/orion-web-core-style-sheets/dist/breakpoints";
+@import "~@alaskaairux/orion-web-core-style-sheets/dist/animation";
+@import "~@alaskaairux/orion-web-core-style-sheets/dist/utilityMixins/anchor-roleTab";
+
+$prefix: true;
+$paragraph: true;
+$focus: true;
+@import "~@alaskaairux/orion-web-core-style-sheets/dist/essentials";
+@import "~@alaskaairux/orion-web-core-style-sheets/dist/utilityClasses/typeProperties";
+
+@import "~@alaskaairux/orion-design-tokens/dist/tokens/SassCustomPropertiesColorRGB";
+@import "~@alaskaairux/orion-web-core-style-sheets/dist/utilityClasses/displayProperties";
+
+body {
+  background-color: var(--auro-color-background-lightest);
+}
+
+footer,
+.wrapper > section {
+  margin: var(--auro-size-md);
+  padding-top: var(--auro-size-md);
+
+  @include auro_breakpoint--sm {
+    max-width: 40rem;
+    margin: var(--auro-size-md) auto 0 280px;
+    padding-right: 1.5rem;
+  }
+
+  @include auro_breakpoint--md {
+    max-width: 60%;
+    margin: var(--auro-size-md) auto 0 25%;
+    padding-right: unset;
+  }
+
+  @include auro_breakpoint($min: 2400px) {
+    max-width: 45%;
+  }
+}
+
+// Hides external icon from repo badges
+img[src*='shields.io'] {
+  & + svg {
+    display: none;
+  }
+}
+
+// custom update for About Me page
+.avatar-badge {
+  display: flex;
+  align-items: center;
+
+  .avatar {
+    margin-right: 1rem;
+  }
+
+  auro-avatar {
+    box-shadow: 0 0 0.5rem var(--auro-color-base-neutral-500);
+    border-radius: 50%;
+  }
+}
+
+@import "./chunks/footer";
+@import "./chunks/side-nav";
+@import "./chunks/tab";

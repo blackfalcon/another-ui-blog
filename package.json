@@ -1,0 +1,95 @@
+{
+  "name": "auro-docsite",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@alaskaairux/auro-accordion": "^1.0.0",
+    "@alaskaairux/auro-alerts": "^1.2.0",
+    "@alaskaairux/auro-avatar": "^1.0.2",
+    "@alaskaairux/auro-button": "^5.3.0",
+    "@alaskaairux/auro-carousel": "^1.2.3",
+    "@alaskaairux/auro-checkbox": "^1.1.1",
+    "@alaskaairux/auro-datetime": "^1.0.0",
+    "@alaskaairux/auro-dialog": "^1.3.0",
+    "@alaskaairux/auro-header": "^1.4.0",
+    "@alaskaairux/auro-hyperlink": "^2.0.1",
+    "@alaskaairux/auro-icon": "^2.0.2",
+    "@alaskaairux/auro-input": "^1.1.0",
+    "@alaskaairux/auro-pane": "^1.1.1",
+    "@alaskaairux/auro-popover": "^1.1.2",
+    "@alaskaairux/auro-radio": "^1.1.0",
+    "@alaskaairux/auro-swatch": "^2.0.4",
+    "@alaskaairux/auro-table": "^1.0.0",
+    "@alaskaairux/icons": "^4.0.3",
+    "@alaskaairux/ods-button": "^4.7.1",
+    "@alaskaairux/ods-hyperlink": "^1.6.0",
+    "@alaskaairux/ods-inputoptions": "^1.1.7",
+    "@alaskaairux/ods-inputtext": "^1.1.1",
+    "@alaskaairux/ods-toast": "^1.1.3",
+    "@alaskaairux/orion-design-tokens": "^2.12.2",
+    "@alaskaairux/orion-icons": "^2.1.5",
+    "@alaskaairux/orion-web-core-style-sheets": "^2.12.1",
+    "@apollo/react-components": "^3.1.5",
+    "@apollo/react-hooks": "^3.1.5",
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
+    "@webcomponents/webcomponentsjs": "^2.5.0",
+    "apollo-boost": "^0.4.9",
+    "axios": "^0.19.2",
+    "focus-visible": "^5.2.0",
+    "graphql": "^15.4.0",
+    "husky": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-highlight": "^0.12.0",
+    "react-markdown": "^4.3.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.4",
+    "react-scroll": "^1.8.1",
+    "react-syntax-highlighter": "^12.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"No tests specified\" && exit 0",
+    "eject": "react-scripts eject",
+    "rebuildSass": "npm rebuild node-sass",
+    "dev": "npm-run-all rebuildSass start"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 3 edge version",
+      "ie 11",
+      "last 2 safari major version"
+    ],
+    "development": [
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 3 edge version",
+      "ie 11",
+      "last 2 safari major version"
+    ]
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.0",
+    "npm-run-all": "^4.1.5",
+    "svg-react-loader": "^0.4.6"
+  }
+}

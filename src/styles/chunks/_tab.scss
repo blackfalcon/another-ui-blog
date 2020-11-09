@@ -1,0 +1,28 @@
+/* --- tab header -- */
+
+.tabList {
+  height: auto;
+  line-height: calc(3rem - 1px);
+  margin-bottom: 2rem;
+
+  position: sticky;
+  top: 80px;
+  background: linear-gradient(180deg, rgba(255,255,255,.99) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,.9) 100%);
+  z-index: 10;
+}
+
+.tab {
+  @include auro_anchorTab(sass, noncomponent);
+
+  display: inline-block;
+  border-color: transparent;
+  text-decoration: none;
+
+  &:hover {
+    padding-bottom: calc(1rem - 1px);
+  }
+}
+
+.tab.focus-visible {
+  color: var(--auro-color-base-white) !important;
+}
