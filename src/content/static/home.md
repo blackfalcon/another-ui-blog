@@ -1,7 +1,11 @@
 ## [Why a datetime component?](/blog/why-datetime)
-<small><auro-datetime utc="2020-11-12T00:01:00Z" month="long"></auro-datetime></small>
+<small><auro-datetime utc="2020-11-11T00:01:00Z" month="long"></auro-datetime></small>
 
-So blah blah ... custom elements or web components. You get it. They are here and we can use them. Why do you care?
+Let's just say, it all started with a Tweet.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">HTML should have a &lt;num&gt; tag that formats numbers according to the user&#39;s locale without JavaScript.</p>&mdash; Justin Fagnani (@justinfagnani) <a href="https://twitter.com/justinfagnani/status/1321909445685731328?ref_src=twsrc%5Etfw">October 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+This sparked a discussion I had with another developer about the number of times there were date and time conversion functions in the many web properties our teams manage. Let's just say, more than one is too many.
 
 ## [The Dream](/blog/the-dream)
 <small><auro-datetime utc="2020-11-09T00:01:00Z" month="long"></auro-datetime></small>
