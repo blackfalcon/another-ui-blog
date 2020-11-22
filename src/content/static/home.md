@@ -1,3 +1,10 @@
+## [CSS Loaders](/blog/loader)
+<small><auro-datetime utc="2020-12-28T00:01:00Z" month="long"></auro-datetime></small>
+
+If you are like me you may be experiencing burnout from all the drama in the world. It's at times like this that we need to find things that make us happy. Reduces the stresses of the world and is just simply fund to do.
+
+For me, that is building a HTML custom element that solves one of the great trivialities of the world, but a necessary tool to bridge the gaps between the current state of the internet and perceived performance. And they are just fun to build. Yes, I am talking about SPINNERS!
+
 ## [Why a datetime component?](/blog/why-datetime)
 <small><auro-datetime utc="2020-11-11T00:01:00Z" month="long"></auro-datetime></small>
 

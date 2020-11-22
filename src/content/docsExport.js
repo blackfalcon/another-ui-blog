@@ -1,6 +1,6 @@
 // DO NOT EDIT! 
 // This doc was auto generated from ./src/scripts/build-page-imports.js 
-// Fri Dec 11 2020 18:29:23 GMT-0800 (Pacific Standard Time)
+// Mon Dec 28 2020 23:51:52 GMT-0800 (Pacific Standard Time)
       
 // Import primary markdown tools
 import {InternalMarkdownWrapper} from '../components/rawMarkdownWrapper';
@@ -8,6 +8,7 @@ import {InternalMarkdownWrapper} from '../components/rawMarkdownWrapper';
 // internal markdown docs
 import CustomElementsPage from './static/blog/custom-elements.md'; 
 import DetectingTouchPage from './static/blog/detecting-touch.md'; 
+import LoaderPage from './static/blog/loader.md'; 
 import TheDreamPage from './static/blog/the-dream.md'; 
 import WhyDateTimePage from './static/blog/why-date-time.md'; 
 import AboutPage from './static/general/about.md'; 
@@ -21,6 +22,10 @@ export class CustomElements extends InternalMarkdownWrapper {
 
 export class DetectingTouch extends InternalMarkdownWrapper {
   readme = DetectingTouchPage
+}
+
+export class Loader extends InternalMarkdownWrapper {
+  readme = LoaderPage
 }
 
 export class TheDream extends InternalMarkdownWrapper {

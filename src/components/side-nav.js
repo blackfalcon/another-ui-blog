@@ -7,6 +7,7 @@ export default function SideNav(props) {
     {
       header: "Homepage links",
       items: [
+        { linkTitle: "CSS Loaders", route: "/blog/loader", parent: true },
         { linkTitle: "Why datetime?", route: "/blog/why-datetime", parent: true },
         { linkTitle: "The Dream", route: "/blog/the-dream", parent: true },
         { linkTitle: "Custom elements, so what's really the big deal?!", route: "/blog/custom-elements", parent: true },

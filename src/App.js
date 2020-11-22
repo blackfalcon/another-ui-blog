@@ -32,7 +32,8 @@ import {
   CustomElements,
   DetectingTouch,
   TheDream,
-  WhyDateTime
+  WhyDateTime,
+  Loader
 } from './content/docsExport';
 
 function App() {
@@ -60,6 +61,7 @@ function App() {
             <Route exact path="/blog/detecting-touch"><DetectingTouch /></Route>
             <Route exact path="/blog/the-dream"><TheDream /></Route>
             <Route exact path="/blog/why-datetime"><WhyDateTime /></Route>
+            <Route exact path="/blog/loader"><Loader /></Route>
 
             {/* 404 */}
             <Route path="*"><NotFound /></Route>
