@@ -1,18 +1,18 @@
-@import '~@alaskaairux/orion-design-tokens/dist/tokens/TokenVariables';
-@import '~@alaskaairux/orion-design-tokens/dist/tokens/SCSSVariables';
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/breakpoints";
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/baseline";
+// @import '~@alaskaairux/orion-design-tokens/dist/tokens/TokenVariables';
+@import '~@alaskaairux/design-tokens/dist/tokens/SCSSVariables';
+@import "~@alaskaairux/webcorestylesheets/dist/breakpoints";
+@import "~@alaskaairux/webcorestylesheets/dist/essentials";
 
 // accessibility
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/utilityMixins/focusVisible";
+@import "~@alaskaairux/webcorestylesheets/dist/utilityMixins/focusVisible";
 
 // Auro typography and spacing
 $prefix: true;
 $paragraph: true;
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/essentials";
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/utilityClasses/fontStyles";
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/headings";
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/utilityMixins/layoutPropertiesGenerator";
+@import "~@alaskaairux/webcorestylesheets/dist/essentials";
+@import "~@alaskaairux/webcorestylesheets/dist/utilityClasses/fontStyles";
+@import "~@alaskaairux/webcorestylesheets/dist/headings";
+@import "~@alaskaairux/webcorestylesheets/dist/utilityMixins/layoutPropertiesGenerator";
 $prefix: null;
 
 .auro-markdown {
@@ -118,7 +118,7 @@ $prefix: null;
     @extend .auro_hyperlink;
 
     &.focus-visible {
-      @include focus-hyperlink(sass);
+      @include auro_focus-hyperlink(sass);
     }
   }
 

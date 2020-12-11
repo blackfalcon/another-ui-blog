@@ -1,22 +1,21 @@
 // Auro Support
 /* ------------------------ Auro Support ------------------------ */
-@import "~@alaskaairux/orion-design-tokens/dist/tokens/SCSSVariables";
+@import "~@alaskaairux/design-tokens/dist/tokens/SCSSVariables";
 
 // Orion support
 /* ------------------------ Orion Support ------------------------ */
-@import '~@alaskaairux/orion-design-tokens/dist/tokens/TokenVariables';
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/breakpoints";
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/animation";
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/utilityMixins/anchor-roleTab";
+@import "~@alaskaairux/webcorestylesheets/dist/breakpoints";
+@import "~@alaskaairux/webcorestylesheets/dist/animation";
+@import "~@alaskaairux/webcorestylesheets/dist/utilityMixins/anchor-roleTab";
 
 $prefix: true;
 $paragraph: true;
 $focus: true;
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/essentials";
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/utilityClasses/typeProperties";
+@import "~@alaskaairux/webcorestylesheets/dist/essentials";
+@import "~@alaskaairux/webcorestylesheets/dist/utilityClasses/typeProperties";
 
-@import "~@alaskaairux/orion-design-tokens/dist/tokens/SassCustomPropertiesColorRGB";
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/utilityClasses/displayProperties";
+@import "~@alaskaairux/design-tokens/dist/tokens/SassCustomPropertiesColorRGB";
+@import "~@alaskaairux/webcorestylesheets/dist/utilityClasses/displayProperties";
 
 body {
   background-color: var(--auro-color-background-lightest);

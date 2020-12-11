@@ -2,37 +2,37 @@
 
 // Orion tokens - can be removed when Orion examples are also removed
 /* ------------------------ orion tokens ------------------------ */
-@import '~@alaskaairux/orion-design-tokens/dist/tokens/TokenVariables';
+// @import '~@alaskaairux/orion-design-tokens/dist/tokens/TokenVariables';
 
 /* auro tokens */
 @import "~@alaskaairux/orion-design-tokens/dist/tokens/SCSSVariables";
 
 // OWCSS imports
 /* ------------------------ OWCSS imports ------------------------ */
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/breakpoints";
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/fonts";
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/componentSupport/tablist";
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/componentSupport/containedButtons";
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/utilityClasses/layoutProperties";
+@import "~@alaskaairux/webcorestylesheets/dist/breakpoints";
+@import "~@alaskaairux/webcorestylesheets/dist/fonts";
+@import "~@alaskaairux/webcorestylesheets/dist/componentSupport/tablist";
+@import "~@alaskaairux/webcorestylesheets/dist/componentSupport/containedButtons";
+@import "~@alaskaairux/webcorestylesheets/dist/utilityClasses/layoutProperties";
 
 // Auro typography
 /* ------------------------ Auro typography ------------------------ */
 $prefix: true;
 $paragraph: true;
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/essentials";
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/utilityClasses/fontStyles";
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/headings";
+@import "~@alaskaairux/webcorestylesheets/dist/essentials";
+@import "~@alaskaairux/webcorestylesheets/dist/utilityClasses/fontStyles";
+@import "~@alaskaairux/webcorestylesheets/dist/headings";
 $prefix: null;
 
 // Auro Selector generators
 /* ------------------------ Auro Selector generators ------------------------ */
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/utilityMixins/_layoutPropertiesGenerator";
+@import "~@alaskaairux/webcorestylesheets/dist/utilityMixins/_layoutPropertiesGenerator";
 
 $auro-spacing-types: stack;
 $important: true;
-@import "~@alaskaairux/orion-design-tokens/dist/tokens/SCSSVariableMap";
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/utilityMixins/spacingUtility";
+@import "~@alaskaairux/design-tokens/dist/tokens/SCSSVariableMap";
+@import "~@alaskaairux/webcorestylesheets/dist/utilityMixins/spacingUtility";
 
 // Table
 /* ------------------------ Table ------------------------ */
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/componentSupport/table";
+@import "~@alaskaairux/webcorestylesheets/dist/componentSupport/table";
