@@ -54,6 +54,11 @@ $prefix: null;
     }
   }
 
+  img {
+    display: block;
+    width: 100%;
+  }
+
   footer img {
     width: 50px;
     min-height: 100%;
@@ -83,13 +88,6 @@ $prefix: null;
 
   strong {
     @extend .auro_heading--300;
-  }
-
-  img {
-    &[alt="Orion Design System Logo"] {
-      width: 125px;
-      margin: 0 0 10px 10px;
-    }
   }
 
   h1,

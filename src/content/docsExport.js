@@ -1,6 +1,6 @@
 // DO NOT EDIT! 
 // This doc was auto generated from ./src/scripts/build-page-imports.js 
-// Fri Dec 11 2020 18:29:23 GMT-0800 (Pacific Standard Time)
+// Thu Jan 07 2021 15:33:35 GMT-0800 (Pacific Standard Time)
       
 // Import primary markdown tools
 import {InternalMarkdownWrapper} from '../components/rawMarkdownWrapper';
@@ -9,6 +9,7 @@ import {InternalMarkdownWrapper} from '../components/rawMarkdownWrapper';
 import CustomElementsPage from './static/blog/custom-elements.md'; 
 import DetectingTouchPage from './static/blog/detecting-touch.md'; 
 import TheDreamPage from './static/blog/the-dream.md'; 
+import WelcomeToAuroPage from './static/blog/welcome-to-auro.md'; 
 import WhyDateTimePage from './static/blog/why-date-time.md'; 
 import AboutPage from './static/general/about.md'; 
 import HomePage from './static/home.md'; 
@@ -25,6 +26,10 @@ export class DetectingTouch extends InternalMarkdownWrapper {
 
 export class TheDream extends InternalMarkdownWrapper {
   readme = TheDreamPage
+}
+
+export class WelcomeToAuro extends InternalMarkdownWrapper {
+  readme = WelcomeToAuroPage
 }
 
 export class WhyDateTime extends InternalMarkdownWrapper {
