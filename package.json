@@ -52,7 +52,8 @@
     "test": "echo \"No tests specified\" && exit 0",
     "eject": "react-scripts eject",
     "rebuildSass": "npm rebuild node-sass",
-    "dev": "npm-run-all rebuildSass start"
+    "buildPages": "node ./scripts/build-page-imports.js",
+    "dev": "npm-run-all rebuildSass buildPages start"
   },
   "husky": {
     "hooks": {

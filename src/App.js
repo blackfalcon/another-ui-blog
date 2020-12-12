@@ -9,22 +9,14 @@ import {
 import './styles/index.scss';
 import './styles/App.scss';
 
-// Logo to appear in console
-// import './scripts/auro-consoleLogo';
-
 // Required for Auro Web Components
-import '@alaskaairux/orion-design-tokens/dist/tokens/CSSCustomProperties.css';
+import '@alaskaairux/design-tokens/dist/tokens/CSSCustomProperties.css';
 
 // Feature to scroll UI to top on click event
 import ScrollToTop from './components/ScrollToTop';
 
 // JS content files
 import NotFound from './content/notFound.js';
-
-// Accordion
-// import AuroAccordion from './content/dynamic/accordion/component';
-// import AuroAccordionApi from './content/dynamic/accordion/api';
-// import AuroAccordionInstall from './content/dynamic/accordion/install';
 
 // imported block components
 import Footer from './components/footer';
@@ -35,7 +27,7 @@ import SideNav from './components/side-nav';
 // export classes from ./src/content/docsExport.js
 // then add the appropriate Route below
 import {
-  AuroHome,
+  Home,
   About,
   CustomElements,
   DetectingTouch,
@@ -60,7 +52,7 @@ function App() {
           <Switch>
 
             {/* Home */}
-            <Route exact path='/' component={AuroHome} />
+            <Route exact path='/' component={Home} />
             <Route exact path="/about"><About /></Route>
 
             {/* Blog */}
@@ -69,11 +61,7 @@ function App() {
             <Route exact path="/blog/the-dream"><TheDream /></Route>
             <Route exact path="/blog/why-datetime"><WhyDateTime /></Route>
 
-            {/* accordion */}
-            {/* <Route exact path="/accordion/"><AuroAccordion /></Route>
-            <Route exact path="/accordion/api"><AuroAccordionApi /></Route>
-            <Route exact path="/accordion/install"><AuroAccordionInstall /></Route> */}
-
+            {/* 404 */}
             <Route path="*"><NotFound /></Route>
 
           </Switch>
