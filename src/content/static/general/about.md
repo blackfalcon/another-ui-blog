@@ -6,7 +6,7 @@
   </div>
   <div>
     <p>Dale Sande<br/>
-    Sr. Software Engineer | Alaska Airlines</p>
+    Principal Engineer | Alaska Airlines</p>
   </div>
 </div>
 
