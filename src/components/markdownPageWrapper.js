@@ -37,7 +37,7 @@ export class MarkdownPageWrapper extends Component {
     if(pattern.test(props.href)) {
 
       // filter out links that are set to internal URLs
-      if (props.href.includes("auro.alaskaair.com")) {
+      if (props.href.includes('http')) {
 
         let url = props.href
         url = url.replace(/^.*\/\/[^/]+/, '')

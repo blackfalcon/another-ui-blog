@@ -107,3 +107,16 @@ When detecting touch, the question is to do this actively or passively. I think 
 
 What I really like about this technique is that it allows for almost surgical like interaction support with each component. Global detection leads to unintended side-effects that has plagued UI development for years. Web Components #ftw!
 
+## Update
+
+<small><auro-datetime utc="2021-02-15T00:01:00Z" month="long"></auro-datetime></small>
+
+Something I have been meaning about adding to this article is that, depending in what you need, there may be a simpler way to get the same effect with only CSS.
+
+```
+@media (hover: hover) {
+    /* ... */
+}
+```
+
+That's it. The great thing is that it does one thing and it does that one thing really good! If you want to see more specifics about its API, see the [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/hover) docs.
