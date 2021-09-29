@@ -27,6 +27,7 @@ import {
   Home,
   About,
   CustomElements,
+  CustomElementCss,
   DetectingTouch,
   TheDream,
   WhyDateTime,
@@ -54,6 +55,7 @@ function App() {
             <Route exact path="/about"><About /></Route>
 
             {/* Blog */}
+            <Route exact path="/blog/custom-element-css"><CustomElementCss /></Route>
             <Route exact path="/blog/custom-elements"><CustomElements /></Route>
             <Route exact path="/blog/detecting-touch"><DetectingTouch /></Route>
             <Route exact path="/blog/the-dream"><TheDream /></Route>

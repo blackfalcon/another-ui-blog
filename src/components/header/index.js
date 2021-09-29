@@ -7,7 +7,7 @@ function Header() {
       <a href="/" className="headerLinkBox">
         <div className="headerTitle">
           <span className="headerTitle-title">Another UI Blog</span>
-          <span className="headerTitle-tagline">HTML Custom Elements and more</span>
+          <span className="headerTitle-tagline">A new frontier of web dev</span>
         </div>
       </a>
     </header>

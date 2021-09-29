@@ -5,8 +5,9 @@ export default function SideNav(props) {
 
   const [siteNav, setNav] = useState([
     {
-      header: "Homepage links",
+      header: "Latest hotness",
       items: [
+        { linkTitle: "CSS and custom elements", route: "/blog/custom-element-css", parent: true },
         { linkTitle: "Custom elements, so what's really the big deal?!", route: "/blog/custom-elements", parent: true },
       ]
     },

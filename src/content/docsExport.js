@@ -1,11 +1,12 @@
 // DO NOT EDIT! 
 // This doc was auto generated from ./src/scripts/build-page-imports.js 
-// Wed Sep 29 2021 08:00:24 GMT-0700 (Pacific Daylight Time)
+// Wed Sep 29 2021 11:08:30 GMT-0700 (Pacific Daylight Time)
       
 // Import primary markdown tools
 import {InternalMarkdownWrapper} from '../components/rawMarkdownWrapper';
       
 // internal markdown docs
+import CustomElementCssPage from './static/blog/custom-element-css.md'; 
 import CustomElementsPage from './static/blog/custom-elements.md'; 
 import DetectingTouchPage from './static/blog/detecting-touch.md'; 
 import LoaderPage from './static/blog/loader.md'; 
@@ -16,6 +17,10 @@ import HomePage from './static/home.md';
 
       
 // internal markdown docs
+export class CustomElementCss extends InternalMarkdownWrapper {
+  readme = CustomElementCssPage
+}
+
 export class CustomElements extends InternalMarkdownWrapper {
   readme = CustomElementsPage
 }
