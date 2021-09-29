@@ -1,10 +1,7 @@
-// Orion tokens
-@import '~@alaskaairux/orion-design-tokens/dist/tokens/TokenVariables';
-
 // Auro tokens
-@import "~@alaskaairux/orion-design-tokens/dist/tokens/SCSSVariables";
-
-@import "~@alaskaairux/orion-web-core-style-sheets/dist/breakpoints";
+@import "~@alaskaairux/design-tokens/dist/tokens/SCSSVariables";
+//
+@import "~@alaskaairux/webcorestylesheets/dist/breakpoints";
 
 .siteHeader {
   display: flex;
@@ -14,7 +11,7 @@
   position: sticky;
   top: 0;
   z-index: 10;
-  border-bottom: 1px solid $auro-color-border-primary-on-light;
+  border-bottom: 1px solid var(--auro-color-border-primary-on-light);
   background-color: white;
 
   @include auro_breakpoint--sm {

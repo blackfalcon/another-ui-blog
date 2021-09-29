@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import 'styles/markdown.scss';
 import ReactMarkdown from 'react-markdown';
 import CodeBlock from 'components/CodeBlock';
 // eslint-disable-next-line import/no-webpack-loader-syntax

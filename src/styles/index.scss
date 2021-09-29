@@ -1,14 +1,10 @@
 /* index.scss */
 
-// Orion tokens - can be removed when Orion examples are also removed
-/* ------------------------ orion tokens ------------------------ */
-// @import '~@alaskaairux/orion-design-tokens/dist/tokens/TokenVariables';
-
 /* auro tokens */
-@import "~@alaskaairux/orion-design-tokens/dist/tokens/SCSSVariables";
+@import "~@alaskaairux/design-tokens/dist/tokens/SCSSVariables";
 
-// OWCSS imports
-/* ------------------------ OWCSS imports ------------------------ */
+// WCSS imports
+/* ------------------------ WCSS imports ------------------------ */
 @import "~@alaskaairux/webcorestylesheets/dist/breakpoints";
 @import "~@alaskaairux/webcorestylesheets/dist/fonts";
 @import "~@alaskaairux/webcorestylesheets/dist/componentSupport/tablist";

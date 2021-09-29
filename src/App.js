@@ -9,9 +9,6 @@ import {
 import './styles/index.scss';
 import './styles/App.scss';
 
-// Required for Auro Web Components
-import '@alaskaairux/design-tokens/dist/tokens/CSSCustomProperties.css';
-
 // Feature to scroll UI to top on click event
 import ScrollToTop from './components/ScrollToTop';
 
