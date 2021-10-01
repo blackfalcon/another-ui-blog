@@ -3,7 +3,7 @@ repository:
   # See https://github.com/apps/settings for app settings
 
   # A short description of the repository that will show up on GitHub
-  description: This is the official anotheruiguy blog, all opinions are my own
+  description: This is the repo for the official Another UI Blog, all opinions are my own
 
   # A URL with more information about the repository
   homepage: https://another-ui-blog.surge.sh/
