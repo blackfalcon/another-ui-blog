@@ -1,3 +1,10 @@
+## [Overlapping concerns](/blog/overlapping-concerns)
+<small><auro-datetime utc="2021-09-30T00:01:00Z" month="long"></auro-datetime></small>
+
+It all starts with a tweet, right?
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Is anyone using React and Web Components together in a cool way? Is there an obvious dividing line between where you write React and where you write WC?</p>&mdash; Micah Godbolt (@micahgodbolt) <a href="https://twitter.com/micahgodbolt/status/1443314083386707971?ref_src=twsrc%5Etfw">September 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## [CSS styles and custom elements](/blog/custom-element-css)
 <small><auro-datetime utc="2021-09-29T00:01:00Z" month="long"></auro-datetime></small>
 

@@ -7,14 +7,9 @@ export default function SideNav(props) {
     {
       header: "Latest hotness",
       items: [
+        { linkTitle: "Overlapping concerns", route: "/blog/overlapping-concerns", parent: true },
         { linkTitle: "CSS and custom elements", route: "/blog/custom-element-css", parent: true },
         { linkTitle: "Custom elements, so what's really the big deal?!", route: "/blog/custom-elements", parent: true },
-      ]
-    },
-    {
-      header: "Other things",
-      items: [
-        { linkTitle: "About me", route: "/about", parent: true },
       ]
     },
     {
@@ -24,6 +19,12 @@ export default function SideNav(props) {
         { linkTitle: "Why datetime?", route: "/blog/why-datetime", parent: true },
         { linkTitle: "The Dream", route: "/blog/the-dream", parent: true },
         { linkTitle: "Detecting touch", route: "/blog/detecting-touch", parent: true },
+      ]
+    },
+    {
+      header: "Other things",
+      items: [
+        { linkTitle: "About me", route: "/about", parent: true },
       ]
     }
   ]);
@@ -63,6 +64,13 @@ export default function SideNav(props) {
             </section>
         </Fragment>
       ))}
+
+      <p className="auro_heading auro_heading--500" style={{"margin-top": "100px"}}>Social</p>
+      <auro-hyperlink href="https://twitter.com/anotheruiguy" nav target="_blank">Follow me on Twitter</auro-hyperlink>
+
+      <p className="auro_heading auro_heading--500">Feedback</p>
+      <small>Have feedback on a post?<br/>Ideas for a new post?</small>
+      <auro-hyperlink href="https://github.com/blackfalcon/another-ui-blog/issues" nav target="_blank">Send me an issue</auro-hyperlink>
     </nav>
   )
 }

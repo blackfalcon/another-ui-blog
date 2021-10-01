@@ -31,7 +31,8 @@ import {
   DetectingTouch,
   TheDream,
   WhyDateTime,
-  Loader
+  Loader,
+  OverlappingConcerns
 } from './content/docsExport';
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
             <Route exact path="/about"><About /></Route>
 
             {/* Blog */}
+            <Route exact path="/blog/overlapping-concerns"><OverlappingConcerns /></Route>
             <Route exact path="/blog/custom-element-css"><CustomElementCss /></Route>
             <Route exact path="/blog/custom-elements"><CustomElements /></Route>
             <Route exact path="/blog/detecting-touch"><DetectingTouch /></Route>
