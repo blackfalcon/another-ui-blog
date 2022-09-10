@@ -7,6 +7,7 @@ export default function SideNav(props) {
     {
       header: "Latest hotness",
       items: [
+        { linkTitle: "Design system fatigue", route: "/blog/design-system-fatigue", parent: true },
         { linkTitle: "Overlapping concerns", route: "/blog/overlapping-concerns", parent: true },
         { linkTitle: "CSS and custom elements", route: "/blog/custom-element-css", parent: true },
         { linkTitle: "Custom elements, so what's really the big deal?!", route: "/blog/custom-elements", parent: true },

@@ -32,7 +32,8 @@ import {
   TheDream,
   WhyDateTime,
   Loader,
-  OverlappingConcerns
+  OverlappingConcerns,
+  DesignSystemFatigue
 } from './content/docsExport';
 
 function App() {
@@ -56,6 +57,7 @@ function App() {
             <Route exact path="/about"><About /></Route>
 
             {/* Blog */}
+            <Route exact path="/blog/design-system-fatigue"><DesignSystemFatigue /></Route>
             <Route exact path="/blog/overlapping-concerns"><OverlappingConcerns /></Route>
             <Route exact path="/blog/custom-element-css"><CustomElementCss /></Route>
             <Route exact path="/blog/custom-elements"><CustomElements /></Route>

@@ -1,6 +1,6 @@
 // DO NOT EDIT! 
 // This doc was auto generated from ./src/scripts/build-page-imports.js 
-// Wed Sep 29 2021 13:50:50 GMT-0700 (Pacific Daylight Time)
+// Fri Oct 01 2021 15:34:31 GMT-0700 (Pacific Daylight Time)
       
 // Import primary markdown tools
 import {InternalMarkdownWrapper} from '../components/rawMarkdownWrapper';
@@ -8,6 +8,7 @@ import {InternalMarkdownWrapper} from '../components/rawMarkdownWrapper';
 // internal markdown docs
 import CustomElementCssPage from './static/blog/custom-element-css.md'; 
 import CustomElementsPage from './static/blog/custom-elements.md'; 
+import DesignSystemFatiguePage from './static/blog/design-system-fatigue.md'; 
 import DetectingTouchPage from './static/blog/detecting-touch.md'; 
 import LoaderPage from './static/blog/loader.md'; 
 import OverlappingConcernsPage from './static/blog/overlapping-concerns.md'; 
@@ -24,6 +25,10 @@ export class CustomElementCss extends InternalMarkdownWrapper {
 
 export class CustomElements extends InternalMarkdownWrapper {
   readme = CustomElementsPage
+}
+
+export class DesignSystemFatigue extends InternalMarkdownWrapper {
+  readme = DesignSystemFatiguePage
 }
 
 export class DetectingTouch extends InternalMarkdownWrapper {
